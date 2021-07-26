@@ -1,0 +1,266 @@
+body {
+    font-size:120%;
+    background-color:#e9f1f7;
+}
+
+.form_select,input {
+    width:30%;
+    height:30px;
+    font-size:20px;
+    border-width:2px;
+    margin-left:20%;
+}
+
+div {
+	background-color: #ffffff;
+    background-clip: content-box;
+	padding: 50px;
+}
+
+.content,textarea,.error {
+    margin-left:20%;
+}
+
+* {
+    font-family:monospace;
+}
+
+h1 {
+    font-size:400%;
+    margin-bottom:0px;
+    font-family:Verdana;
+    padding-top:50px;
+    margin-left:10%;
+}
+
+h2 {
+    margin-top:0px;
+    margin-left:10%;
+}
+
+textarea {
+    border-width:2px;
+    font-size:20px;
+}
+
+.content {
+    padding-top:3%;
+    font-size:20px;
+}
+
+header {
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:5%;
+    font-size:30px;
+    z-index:10;
+    background-color:rgb(40, 92, 183, 0.9);
+    
+}
+
+.header {
+    font-family:arial;
+    color:white;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.button_position {
+    text-align:center;
+}
+
+#button {
+    height:50px;
+    width:400px;
+    font-size:200%;
+    border-radius: 100vh;
+    color: #ffffff;
+    background: rgb(46, 180, 216);
+    cursor:pointer;
+}
+
+.error {
+    color:rgb(199, 29, 29);
+    font-weight:bold;
+    font-size:25px
+
+}
+
+.popup {
+    display:none;
+}
+
+.cover {
+    width:50%;
+    height:20%;
+    z-index:11;
+    background-color:rgb(1, 4, 87);
+    opacity:0.9;
+    position:absolute;
+    left:20%;
+    top:55%;
+    border-radius: 9vh;
+}
+
+.incover{
+    width:45%;
+    height:15%;
+    z-index:12;
+    background-color:#ffffff;
+    position:absolute;
+    left:22.5%;
+    top:57.5%;
+    border-radius: 7vh;
+}
+
+.popup_content {
+    position:absolute;
+    left:30%;
+    top:58%;
+    z-index:13;
+    font-size:35px;
+}
+
+.thank {
+    font-size:19px;
+    float:left;
+}
+
+.close_button{
+    font-size:25px;
+    background:rgb(1, 4, 87);
+    color:white;
+}
+
+@media (max-width:600px){
+    .content,textarea,.error,.button_position{
+        margin-left:10%;
+    }
+
+    body {
+
+        background-color:#e9f1f7;
+    }
+
+    div {
+        background-color: #ffffff;
+        background-clip: content-box;
+        padding: 30px;
+    }
+
+    .form_select,input {
+        width:80%;
+        height:30px;
+        font-size:15px;
+        border-width:2px;
+        margin-left:10%;
+    }
+
+    textarea {
+        width:80%;
+        border-width:2px;
+        font-size:15px;
+    }
+
+    
+    
+    #button {
+        height:40px;
+        width:180px;
+        font-size:200%;
+        border-radius: 100vh;
+        color: #ffffff;
+        background: rgb(46, 180, 216);
+        cursor:pointer;
+    }
+
+    h1 {
+        font-size:300%;
+        margin-bottom:0px;
+        font-family:Verdana;
+        padding-top:50px;
+        margin-left:10%;
+    }
+    
+    h2 {
+        margin-top:0px;
+        margin-left:10%;
+    }
+
+    .header {
+        font-family:arial;
+        color:white;
+        margin-top:10px;
+        font-weight:bold;
+    }
+
+    header {
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:5%;
+        font-size:20px;
+        z-index:10;
+        background-color:rgb(40, 92, 183, 0.9);
+        
+    }
+
+    .error {
+        font-size:18px;
+    }
+
+    .content {
+        padding-top:3%;
+        font-size:15px;
+    }
+
+    .popup_content {
+        position:absolute;
+        left:17%;
+        top:58%;
+        z-index:13;
+        font-size:15px;
+        text-align: center;
+
+    }
+    
+    .thank {
+        font-size:10px;
+        float:left;
+        text-align: center;
+
+    }
+    
+    .close_button{
+        font-size:15px;
+        background:rgb(1, 4, 87);
+        color:white;
+        text-align: center;
+
+    }
+
+    .cover {
+        width:70%;
+        height:18%;
+        z-index:11;
+        background-color:rgb(1, 4, 87);
+        opacity:0.9;
+        position:absolute;
+        left:10%;
+        top:55%;
+        border-radius: 9vh;
+    }
+    
+    .incover{
+        width:65%;
+        height:15%;
+        z-index:12;
+        background-color:#ffffff;
+        position:absolute;
+        left:12.5%;
+        top:56.5%;
+        border-radius: 7vh;
+    }
+    
+}
